@@ -1,0 +1,13 @@
+---
+layout: default
+title: Links
+overview: true
+---
+{% assign items = site.slides  %}
+{% for item in items %}
+	<section id="{{ item.id }}" data-title="{{ item.title }}" class="slide {{ item.classes }}" {% if item.image %} style="background-image: url('../images/front-end-performance/{{ item.image }}')" {% endif %}>
+		<div class="slide_content">
+			{{ item.content }}
+		</div>
+	</section>
+{% endfor %}
