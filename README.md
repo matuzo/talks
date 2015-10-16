@@ -45,6 +45,26 @@
 * [Fast Enough by Tim Kadlec](http://timkadlec.com/2014/01/fast-enough/)
 * [Paul Irish, "Delivering the goods" - Fluent 2014 Keynote ](https://www.youtube.com/watch?v=R8W_6xWphtw)
 
+### Image optimization
+
+* [ImageAlpha](http://pngmini.com/)
+* [ImageOptim](https://imageoptim.com/)
+* [MozJPEG](https://imageoptim.com/mozjpeg)
+* [tinypng](https://tinypng.com/)
+* [pngquant](https://pngquant.org/)
+* [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer)
+* [JPEGmini](http://www.jpegmini.com/)
+* [grunt-imageoptim](https://github.com/JamieMason/grunt-imageoptim)
+* [gulp-imageoptim](https://www.npmjs.com/package/gulp-imageoptim)
+* [Image Optimization Workflow for Alfred app](https://github.com/ramiroaraujo/alfred-image-optim-workflow)
+* [ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI)
+* [Dateigröße von Bildern ohne Verluste reduzieren by me](http://matuzo.at/dateigroesse-von-bildern-ohne-verluste-reduzieren/)
+* [webp installation](https://developers.google.com/speed/webp/docs/precompiled)
+* [webp getting started](https://developers.google.com/speed/webp/docs/using)
+* [webp caniuse.com](http://caniuse.com/#search=webp)
+* [RICG](https://responsiveimages.org/)
+* [picturefill](https://github.com/scottjehl/picturefill)
+
 ### ServiceWorker
 
 * [Is ServiceWorker ready?](https://jakearchibald.github.io/isserviceworkerready/)
