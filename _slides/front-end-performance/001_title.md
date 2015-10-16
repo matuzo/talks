@@ -7,4 +7,4 @@ image: palms.jpg
 
 # Front-End Performance
 
-## Our websites keep getting <br />fatter and fatter
+## Our Websites Keep Getting <br />Fatter and Fatter
