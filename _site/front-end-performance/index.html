@@ -381,12 +381,25 @@
     <a href="/talks/images/front-end-performance/weblog_filmstrip.png">
         <img src="/talks/images/front-end-performance/weblog_filmstrip.png" alt="Weblog Initial Situation" />
     </a>
+</div>
+
+<iframe src="http://www.webpagetest.org/video/view.php?id=151016_5021331c1deba40cffa40c97cf1baf7c02ae8800&amp;embed=1&amp;width=520&amp;height=432" width="540" height="462"></iframe>
+
+		</div>
+	</section>
+
+	<section id="weblog_initial_mobile" data-title="Webpage Test Initial Situation Mobile" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h2 id="webpage-test-initial-situation-mobile">Webpage Test: Initial Situation Mobile</h2>
+
+<div class="img_max">
+
     <a href="/talks/images/front-end-performance/weblog_filmstrip_mobile.png">
         <img src="/talks/images/front-end-performance/weblog_filmstrip_mobile.png" alt="Weblog Initial Situation" />
     </a>
 </div>
 
-<iframe src="http://www.webpagetest.org/video/view.php?id=151016_5021331c1deba40cffa40c97cf1baf7c02ae8800&amp;embed=1&amp;width=520&amp;height=432" width="540" height="462"></iframe>
+<iframe src="http://www.webpagetest.org/video/view.php?id=151016_12305e54b44f3e91c8fec6fefbf3a189b8b7e06f&amp;embed=1&amp;width=520&amp;height=432" width="540" height="462"></iframe>
 
 		</div>
 	</section>
@@ -442,18 +455,293 @@
 		</div>
 	</section>
 
-	<section id="imagesize" data-title="Weblog Image size" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+	<section id="filesize" data-title="Weblog file size" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
 		<div class="slide_content">
-			<h1 id="weblog-image-size">Weblog: Image size</h1>
+			<h1 id="image-file-size">1. Image file size</h1>
 
 <p>Desktop and Mobile each with 3987,857 kb (~4MB) images</p>
 
 		</div>
 	</section>
 
+	<section id="img_compression" data-title="Weblog image compression" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-1">Optimization Step 1</h1>
+
+<h2 id="lossy-and-lossless-image-compression">Lossy and lossless image compression</h2>
+
+<p>For example: <a href="http://pngmini.com/">ImageAlpha</a> (lossy) and <a href="https://imageoptim.com/">ImageOptim</a> (lossless)</p>
+
+		</div>
+	</section>
+
+	<section id="webblog_step1" data-title="Optimization Step 1" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-1">Optimization Step 1</h1>
+
+<h2 id="file-compression">File Compression</h2>
+
+<p>File sizes: 3987,857 KB (~4MB) -&gt; 2027,063 KB (~2MB)</p>
+
+		</div>
+	</section>
+
+	<section id="imagesize" data-title="Weblog image size" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="image-size">2. Image size</h1>
+
+<p>Desktop and Mobile each with 2027,063 KB (~2MB) images</p>
+
+
+		</div>
+	</section>
+
+	<section id="webblog_step2" data-title="Optimization Step 2" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-2">Optimization Step 2</h1>
+
+<h2 id="save-images-in-correct-size">Save images in correct size</h2>
+
+<p>Images size: 2027,063 KB (~2MB) -&gt; 1,168,480 KB (1.2MB)</p>
+
+		</div>
+	</section>
+
+	<section id="step2psiscore" data-title="PSI Score Step2" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="psi-score-step2">PSI Score Step2</h1>
+
+<p><img src="/talks/images/front-end-performance/psi_step0.png" alt="PSI Score Step0" />
+-&gt;
+<img src="/talks/images/front-end-performance/psi_step2.png" alt="PSI Score Step2" /></p>
+
+		</div>
+	</section>
+
+	<section id="responsive_images" data-title="Responsive image" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="responsive-image">3. Responsive image</h1>
+
+<p>Desktop and Mobile each with 1,168,480 (1.2MB) images</p>
+
+
+		</div>
+	</section>
+
+	<section id="responsive_images" data-title="Responsive image" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-3">Optimization Step 3</h1>
+
+<h2 id="srcset">srcset</h2>
+
+<pre><code>&lt;img src="small.jpg"
+ srcset="large.jpg 1024w, medium.jpg 640w, small.jpg 320w"
+ alt="A rad wolf"&gt;
+</code></pre>
+
+		</div>
+	</section>
+
+	<section id="webblog_step3" data-title="Optimization Step 3" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-3">Optimization Step 3</h1>
+
+<h2 id="responsive-images">Responsive images</h2>
+
+<p>Images size Mobile: 1,094,313 KB (~1.1MB) -&gt; ~300 KB
+Images size Desktop: 1,168,480 KB (~1.2MB)</p>
+
+		</div>
+	</section>
+
+	<section id="step2psiscore" data-title="PSI Score Step2" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="psi-score-step3">PSI Score Step3</h1>
+
+<p><img src="/talks/images/front-end-performance/psi_step2.png" alt="PSI Score Step2" />
+-&gt;
+<img src="/talks/images/front-end-performance/psi_step3.png" alt="PSI Score Step3" /></p>
+
+		</div>
+	</section>
+
+	<section id="imageformats" data-title="Smaller Imageformats" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="smaller-imageformats">4. Smaller Imageformats</h1>
+
+<p>Images size Mobile: ~300 KB<br />
+Images size Desktop: 1,168,480 KB (~1.2MB)</p>
+
+		</div>
+	</section>
+
+	<section id="webp" data-title="webp" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-4">Optimization Step 4</h1>
+
+<h2 id="webp">WebP</h2>
+
+<ul>
+  <li>Imageformat made by Google</li>
+  <li>Current only supported on <a href="http://caniuse.com/#search=webp">Chrome, Opera, Android Webkit, Chrome Android</a></li>
+  <li>Sometimes bigger then original file</li>
+</ul>
+
+		</div>
+	</section>
+
+	<section id="webp_picture" data-title="Webp & picture" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-4">Optimization Step 4</h1>
+
+<h2 id="webp--picture">Webp &amp; picture</h2>
+
+<pre><code>&lt;picture&gt; 
+    &lt;source type="image/webp" srcset="images/320/webp/bild3.webp 320w,  images/768/webp/bild3.webp 768w"&gt;
+    &lt;img src="images/320/bild3.jpg" srcset="images/768/bild3.jpg 768w" alt=""&gt;
+&lt;/picture&gt;
+</code></pre>
+
+		</div>
+	</section>
+
+	<section id="webblog_step4" data-title="Optimization Step 4" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-4">Optimization Step 4</h1>
+
+<h2 id="webp">Webp</h2>
+
+<p>Images size Mobile: ~300KB -&gt; ~176 KB
+Images size Desktop: 1,168,480 KB (~1.2MB) -&gt; ~528 KB</p>
+
+		</div>
+	</section>
+
+	<section id="step4speedindex" data-title="Speedindex Step4" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="speedindex-step4">Speedindex Step4</h1>
+
+<p>Desktop: 2448 -&gt; 2112<br />
+Mobile: 14632 -&gt; 8675</p>
+
+		</div>
+	</section>
+
+	<section id="css-optimization" data-title="CSS Optimization" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="css-optimization">CSS Optimization</h1>
+
+		</div>
+	</section>
+
+	<section id="combinecss" data-title="Combine CSS Files" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="combine-css-files">1. Combine CSS Files</h1>
+
+<p>4 requests to CSS files</p>
+
+		</div>
+	</section>
+
+	<section id="combinecss_step5" data-title="Combine CSS files" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-5">Optimization Step 5</h1>
+
+<h2 id="combine-css-files">Combine CSS files</h2>
+
+<p><a href="https://www.npmjs.com/package/grunt-concat-css">grunt-concat-css</a>, <a href="https://www.npmjs.com/package/gulp-concat-css">gulp-concat-css</a>, <a href="https://www.npmjs.com/package/gulp-usemin">gulp-usemin</a>,…</p>
+
+		</div>
+	</section>
+
+	<section id="unusedcss" data-title="Unused CSS" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="remove-unused-css">2. Remove unused CSS</h1>
+
+<p>15KB Custom CSS<br />
+26KB Bootstrap theme<br />
+147KB Bootstrap<br />
+3KB Validation plugin  </p>
+
+<p><strong>Total: 191KB CSS</strong></p>
+
+		</div>
+	</section>
+
+	<section id="checkunusedcss" data-title="Check pages for unused CSS" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h2 id="check-pages-for-unused-css">Check pages for unused CSS</h2>
+
+<p>Chrome Dev Tools -&gt; Audits -&gt; Run</p>
+
+<div class="img_max">
+    <img src="/talks/images/front-end-performance/devtools_audits.png" alt="Check pages for unused CSS" />
+</div>
+
+		</div>
+	</section>
+
+	<section id="removeunusedcss" data-title="Remove unused CSS" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-6">Optimization Step 6</h1>
+
+<h2 id="remove-unused-css">Remove unused CSS</h2>
+
+<p><a href="https://github.com/giakki/uncss"><strong>UnCss</strong></a> is a tool that removes unused CSS from your stylesheets. It works across multiple files and supports Javascript-injected CSS.</p>
+
+		</div>
+	</section>
+
+	<section id="removeunusedcss_step6" data-title="Remove unused CSS" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-6">Optimization Step 6</h1>
+
+<h2 id="remove-unused-css">Remove unused CSS</h2>
+
+<p>CSS 192KB -&gt; 29KB</p>
+
+		</div>
+	</section>
+
+	<section id="minifycss" data-title="Minify CSS" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="minify-css">3. Minify CSS</h1>
+
+<p>29KB CSS file</p>
+
+		</div>
+	</section>
+
+	<section id="minifycsstools" data-title="Minify CSS" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h2 id="minify-css">Minify CSS</h2>
+
+<p><a href="http://cssminifier.com/">cssminifier</a>, <a href="https://www.npmjs.com/package/gulp-minify-css">gulp-minify-css</a>, <a href="https://www.npmjs.com/package/grunt-contrib-cssmin">grunt-contrib-cssmin</a>,…</p>
+
+		</div>
+	</section>
+
+	<section id="minifycss_step7" data-title="Minify CSS" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="optimization-step-7">Optimization Step 7</h1>
+
+<h2 id="minify-css">Minify CSS</h2>
+
+<p>CSS 29KB -&gt; 21KB</p>
+
+		</div>
+	</section>
+
+	<section id="loading-javascript" data-title="Loading Javascript" class="slide "  style="background-image: url('../images/front-end-performance/palms.jpg')" >
+		<div class="slide_content">
+			<h1 id="loading-javascript">Loading Javascript</h1>
+
+		</div>
+	</section>
+
 	</section>
 	<div class="page-count">
-		<span class="page-count_current">1</span> 
+		<span class="page-count_current"></span> 
 		of
 		<span class="page-count_total"></span>
 	</div>

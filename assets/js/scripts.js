@@ -1,5 +1,4 @@
 
-
 document.querySelector('.page-count_total').textContent = document.querySelectorAll('.slide').length;
 
 if(location.hash === '') {
@@ -8,6 +7,9 @@ if(location.hash === '') {
 } else {
 	document.querySelector(location.hash).classList.add('is-visible');
 }
+
+setCurrentSlide(document.querySelector('.slide.is-visible'));
+
 
 document.addEventListener("keydown", function(e) {
 	console.log(e.keyCode)
@@ -38,6 +40,8 @@ function changeSlide(current,next) {
 		updateURL(location.href.split('#')[0].split(location.host+'/')[1]+'#'+next.getAttribute('id'), next.getAttribute('data-title'))
 	}
 }
+
+
 
 function setCurrentSlide(elem) {
 	document.querySelector('.page-count_current').textContent = indexInParent(elem) + 1;
