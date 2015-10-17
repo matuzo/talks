@@ -62,8 +62,43 @@
 * [webp installation](https://developers.google.com/speed/webp/docs/precompiled)
 * [webp getting started](https://developers.google.com/speed/webp/docs/using)
 * [webp caniuse.com](http://caniuse.com/#search=webp)
+* [Responsive Images: Use Cases and Documented Code Snippets to Get You Started](https://dev.opera.com/articles/responsive-images/)
 * [RICG](https://responsiveimages.org/)
 * [picturefill](https://github.com/scottjehl/picturefill)
+
+### CSS optimization
+
+* [grunt-concat-css](https://www.npmjs.com/package/grunt-concat-css)
+* [gulp-concat-css](https://www.npmjs.com/package/gulp-concat-css)
+* [gulp-usemin](https://www.npmjs.com/package/gulp-usemin)
+* [Spring-cleaning Unused CSS With Grunt, Gulp, Broccoli or Brunch by Addy Osmani](http://addyosmani.com/blog/removing-unused-css/)
+* [UnCSS](https://github.com/giakki/uncss)
+* [gulp-uncss](https://www.npmjs.com/package/gulp-uncss)
+* [grunt-uncss](https://github.com/addyosmani/grunt-uncss)
+* [gulp-minify-css](https://www.npmjs.com/package/gulp-minify-css)
+* [grunt-contrib-cssmin](https://www.npmjs.com/package/grunt-contrib-cssmin)
+* [css minifier](http://cssminifier.com/)
+* [Understanding Critical CSS](http://www.smashingmagazine.com/2015/08/understanding-critical-css/)
+* [critical](https://github.com/addyosmani/critical)
+* [CriticalCSS](https://github.com/filamentgroup/criticalcss)
+
+### Font loading
+
+* [Webfont Generator](http://www.fontsquirrel.com/tools/webfont-generator)
+* [Homebrew web font tools](https://github.com/bramstein/homebrew-webfonttools)
+* [How we use web fonts responsibly, or, avoiding a @font-face-palm by Zach Leatherman](https://www.filamentgroup.com/lab/font-loading.html)
+* [Font Loading Revisited with Font Events by Scott Jehl](https://www.filamentgroup.com/lab/font-events.html)
+* [Webfont Performance, FOUT, FOIT und Usability by me](http://matuzo.at/webfont-performance/)
+* [Web Font Loader](https://github.com/typekit/webfontloader)
+* [Font Face Observer](https://github.com/bramstein/fontfaceobserver/)
+* [CSS Font Loading](https://drafts.csswg.org/css-font-loading/)
+
+#### Bonus: Webfont Anti-Patterns
+
+* [Web Font Anti-Patterns](http://bramstein.com/writing/web-font-anti-patterns.html)
+* [Aggressive subsetting](http://bramstein.com/writing/web-font-anti-patterns-subsetting.html)
+* [Inlining](http://bramstein.com/writing/web-font-anti-patterns-inlining.html)
+* [Overusing web fonts](http://bramstein.com/writing/web-font-anti-patterns-overusing.html)
 
 ### ServiceWorker
 
