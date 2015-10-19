@@ -31,7 +31,7 @@
 
 ### Performance Audits
 
-* [Pageload Perf Audits with DevTools Filmstrip in Chrome](https://www.youtube.com/watch?v=tCfF6HI0JKs)
+* [Video: Pageload Perf Audits with DevTools Filmstrip in Chrome](https://www.youtube.com/watch?v=tCfF6HI0JKs)
 * [Reddit Mobile](https://github.com/reddit/reddit-mobile/issues/247)
 * [theverge.come](https://docs.google.com/document/d/1Xv3qNROxPOOtau7V3UbHHJyA-5AmGC4s-hZKBe0Lx6U/edit?pli=1#bookmark=id.uy1m8rhjr41h)
 * [imore.com](https://docs.google.com/document/d/1-Kdmub-7WfA45gSyG2GYQOyEkkjmG1gKq0zJwhrWbPA/edit?pli=1)
@@ -39,11 +39,18 @@
 * [squarespace](https://docs.google.com/document/d/15VSNoBP3OK64l5Jc_w63sgW88RUn3ve2qV7Jrrfc5A8/edit?pli=1#heading=h.v23t53p6nkzl)
 * [CNet, Wikipedia, Time](https://docs.google.com/document/d/1K-mKOqiUiSjgZTEscBLjtjd6E67oiK8H2ztOiq5tigk/edit?pli=1#)
 * [Introducing RAIL: A User-Centric Model For Performance](http://www.smashingmagazine.com/2015/10/rail-user-centric-model-performance/)
+* [Video: Totally Tooling Tips: Performance Auditing](https://www.youtube.com/watch?v=yeNUytByylk)
 
 ### Performance Goals
 
 * [Fast Enough by Tim Kadlec](http://timkadlec.com/2014/01/fast-enough/)
-* [Paul Irish, "Delivering the goods" - Fluent 2014 Keynote ](https://www.youtube.com/watch?v=R8W_6xWphtw)
+* [Video: Paul Irish, "Delivering the goods" - Fluent 2014 Keynote ](https://www.youtube.com/watch?v=R8W_6xWphtw)
+
+### General optimization
+
+* [Video: Supercharging page load (100 Days of Google Dev)](https://www.youtube.com/watch?v=d5_6yHixpsQ)
+* [Video: Supercharged: The Guardian](https://www.youtube.com/watch?v=obtCN3Goaw4)
+* [Video: CSSconf EU 2014 | Addy Osmani: CSS Performance Tooling](https://www.youtube.com/watch?v=FEs2jgZBaQA)
 
 ### Image optimization
 
@@ -62,9 +69,11 @@
 * [webp installation](https://developers.google.com/speed/webp/docs/precompiled)
 * [webp getting started](https://developers.google.com/speed/webp/docs/using)
 * [webp caniuse.com](http://caniuse.com/#search=webp)
+* [gulp-webp](https://github.com/sindresorhus/gulp-webp)
 * [Responsive Images: Use Cases and Documented Code Snippets to Get You Started](https://dev.opera.com/articles/responsive-images/)
 * [RICG](https://responsiveimages.org/)
 * [picturefill](https://github.com/scottjehl/picturefill)
+* [SVGOMG](https://jakearchibald.github.io/svgomg/)
 
 ### CSS optimization
 
@@ -92,6 +101,9 @@
 * [Web Font Loader](https://github.com/typekit/webfontloader)
 * [Font Face Observer](https://github.com/bramstein/fontfaceobserver/)
 * [CSS Font Loading](https://drafts.csswg.org/css-font-loading/)
+* [Video: The Performance and Usability of Font Loading](https://www.youtube.com/watch?v=DGQSw6gc95k)
+* [WOFF Support](http://caniuse.com/#feat=woff)
+* [WOFF2 Support](http://caniuse.com/#feat=woff2)
 
 #### Bonus: Webfont Anti-Patterns
 
@@ -100,7 +112,23 @@
 * [Inlining](http://bramstein.com/writing/web-font-anti-patterns-inlining.html)
 * [Overusing web fonts](http://bramstein.com/writing/web-font-anti-patterns-overusing.html)
 
+### Sprites
+
+
+
+### CDNs
+
+### Caching & gzipping
+
+* [HTTP-Caching](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
+* [Data compression](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en)
+* [HTML5BP Apache Server Configs](https://github.com/h5bp/server-configs-apache)
+
 ### ServiceWorker
 
 * [Is ServiceWorker ready?](https://jakearchibald.github.io/isserviceworkerready/)
 * [ServiceWorker on caniuse](http://caniuse.com/#feat=serviceworkers)
+
+### HTTP/2
+
+* [Video: Yesterday's perf best-practices are today's HTTP/2 anti-patterns](https://www.youtube.com/watch?v=yURLTwZ3ehk)
