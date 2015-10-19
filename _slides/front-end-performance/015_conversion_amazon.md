@@ -1,11 +1,15 @@
 ---
 title: Conversion rates
+subtitle: Amazon
 id: conversion_amazon
+classes: overlay centered_content
 image: amazon.jpg
 ---
 
-# Amazon
-
-## 100ms faster => 1% more revenue  
-
-<small class="source"><http://radar.oreilly.com/2008/08/radar-theme-web-ops.html></small>
+<div class="big_text">
+100ms faster 
+<br />
+&#8594; 
+<br />
+<span class="highlighted_text">1% more revenue</span>
+</div>

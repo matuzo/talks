@@ -1,7 +1,6 @@
 ---
 title: Roaming
 id: roaming
-image: palms.jpg
+classes: vertically_centered
+image: feature-phone.jpg
 ---
-
-# Roaming

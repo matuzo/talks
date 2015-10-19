@@ -1,9 +1,8 @@
 ---
-title: Pageload in under 1 second
+title: Pageload 
+subtitle: in under 1 second 
 id: pageload
-image: palms.jpg
+classes: overlay--90 centered_content
+image: speedy-gonzales.jpg
 ---
-
-# Pageload < 1 second
-
-## 1.0 second is how long you have for the user’s state of flow to remain uninterrupted
+1.0 second is how long you have for the user’s state of flow to remain uninterrupted

@@ -1,10 +1,10 @@
 ---
-title: How can you measure performance?
+title: Wrap-up
+subtitle: How can you measure performance?
 id: how_answers
+classes: overlay
 image: palms.jpg
 ---
-
-## How can you measure performance?
 
 * [DevTools](https://developer.chrome.com/devtools/docs/timeline)
 * [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)

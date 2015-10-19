@@ -1,7 +1,6 @@
 ---
 title: Usability/Accessibility
-id: Usability
-image: palms.jpg
+id: usability
+classes: vertically_centered no_stretch
+image: spinner.gif
 ---
-
-# Usability/Accessibility

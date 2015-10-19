@@ -1,31 +1,9 @@
-* {
-	box-sizing: border-box;
-}
-
-body {
-	font-size: 28px;	
-	color: #2C776F;
-	font-weight: bold;
-	font-family: @font_normal;
-}
-
-ul {
-	list-style: none;
-	padding: 0;
-	text-align: center;
-}
-
-a:link, a:visited {
-	color: #2C776F;
-}
-
 .slides {
 	display: flex;
 	overflow: hidden;
 }
 
 .slide {
-	/*border: 1px solid red;*/
 	height: 100vh;
 	background-size: cover;
 	width: 0;
@@ -39,62 +17,166 @@ a:link, a:visited {
 }
 
 .slide_content {
-	width: 70%;
+	width: 100%;
 	margin: 0 auto 0;
 	// display: flex;
 	// justify-content: center;
 	text-align: center;
+	// height: 100%;
+	position: relative;
+	height: 100%;
+	padding-top: 35px;
+	display: flex;
+	flex-direction: column;
+
+
 }
 
-.is-visible {
-	width: 00vw;
-	flex: 1 0 100vw;
-	overflow: visible;
-}
 
-.page-count {
-	font-family: @font_highlight;
-	padding: 10px;
-	position: absolute;
-	right: 0.5em;
-	bottom: 0;
-}
 
-h1, h2 {
-	font-family: @font_highlight;
+h1, h2, .slide--bottom h1 {
 	line-height: 1.2;
 	margin: 0;
 	text-align: center;
-	font-size: 70px;
-	color: @dark;
+	font-size: 60px;
+	color: #EDF6F5;
 	text-shadow: 2px 1px 0px #3B998F;
 }
 
 h1 {
 	font-size: 100px;
-	color: @light;
-	text-shadow: 2px 1px 0px #2C776F;
-	margin-bottom: 0.3em;
+	text-shadow: 2px 1px 0px @dunkelrosa;
+	margin-bottom: 0.1em;
+	color: @rosa;
+	font-family: @font_highlight;
 }
+
+p {
+	margin-top: 0;
+}
+
+
+h3 {
+	line-height: 1.4;
+	margin: 10px 0px;
+	color: #F6EAEA;
+	font-size: 38px;
+}
+
+.slide--bottom h1 {
+	background: rgba(46, 183, 173, 0.6);
+	position: absolute;
+	bottom: 35px;
+	left: 35px;
+	width: ~"calc(100% - 70px)";
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.vertically_centered,
+.contrast {
+	.slide_content {
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		background: none;
+		padding-top: 0;
+	}
+
+	h1 {
+		color: @light;
+		text-shadow: 2px 1px 0px #2C776F;
+	}
+
+	h2 {
+		color: @dark;
+	}
+}
+
+.overlay .slide_content {
+	background: rgba(46, 183, 173, 0.6);
+}
+
+.overlay--90 .slide_content {
+	background: rgba(46, 183, 173, 0.9);
+}
+
+.contrast .slide_content {
+	background: rgba(255, 182, 174, 0.8);
+}
+
+.no_stretch {
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+		
+			
+
+
 
 .headline--bg {
 	margin-bottom: 0.5em;
 }
 
-iframe {
-	margin: auto;
-}
+
 
 .img_max {
 	max-width: 800px;
 	margin: 0 auto;
+
+	a {
+		display: block;
+	}
 
 	img {
 		max-width: 100%
 	}
 }
 
-iframe {
-	border: none;
-	max-width: 100%;
+img {
+	max-width: 800px;
+}
+
+
+
+.text {
+	background: rgba(46, 183, 173, 0.6);
+	padding: 35px 35px 0;
+	margin: 30px 35px 35px;
+	flex-grow: 1;
+}
+
+.centered_content .text {
+	display: flex;
+	flex-direction: column;
+}
+
+.centered_content img {
+	vertical-align: middle;
+}
+
+.centered_block {
+	// display: flex;
+	// justify-content: center;
+
+	.text_inner {
+		width: 85%;
+		text-align:left;
+	}
+}
+
+
+.text_inner {
+	margin: auto;
+	width: 100%;
+}
+
+.big_text {
+	font-size: 60px;
+}
+
+.highlighted_text {
+	color: #fff;
 }

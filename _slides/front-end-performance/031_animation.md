@@ -1,9 +1,8 @@
 ---
 title: Smooth Animation/Scrolling
 id: animation
+subtitle: 60fps
+classes: overlay centered_content
 image: palms.jpg
 ---
-
-# Smooth Animation/Scrolling
-
-## Each frame completes in less than 16 milliseconds.
+Each frame completes in less than 16.66 milliseconds.

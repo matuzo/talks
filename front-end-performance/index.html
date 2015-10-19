@@ -7,7 +7,15 @@ overview: true
 {% for item in items %}
 	<section id="{{ item.id }}" data-title="{{ item.title }}" class="slide {{ item.classes }}" {% if item.image %} style="background-image: url('../images/front-end-performance/{{ item.image }}')" {% endif %}>
 		<div class="slide_content">
-			{{ item.content }}
+			<h1>{{ item.title }}</h1>
+			<h2>{{ item.subtitle }}</h2>
+			
+			{% assign content = item.content | strip_newlines %}
+			{% if content != "" %}
+			<div class="text">
+				<div class="text_inner">{{ item.content }}</div>
+			</div>
+			{% endif %}
 		</div>
 	</section>
 {% endfor %}

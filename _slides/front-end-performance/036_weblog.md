@@ -1,10 +1,9 @@
 ---
-title: Weblog
+title: Example
+subtitle: Weblog
 id: weblog
-image: palms.jpg
+classes: overlay
+image: surgeon.jpg
 ---
 
-## Example: Weblog
-
-
-[![Devtools]({{site.baseurl}}images/front-end-performance/weblog.png)](http://weblog.matuzo.at)
+[![Devtools]({{site.baseurl}}images/front-end-performance/weblog.jpg)](http://weblog.matuzo.at)

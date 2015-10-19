@@ -1,10 +1,10 @@
 ---
-title: Why is performance important?
-id: why
+subtitle: "Why is <s>good</s> the best possible performance important?"
+title: Wrap-up
+id: why_answers
+classes: overlay
 image: palms.jpg
 ---
-
-## Why is <s>good</s> the best possible performance important?
 
 * Usability, Accessibility
 * Slow WiFi

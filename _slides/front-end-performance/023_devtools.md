@@ -1,11 +1,13 @@
 ---
-title: DevTools
+title: Chrome DevTools
+subtitle: Timeline
 id: devtools
+classes: overlay
 image: palms.jpg
 ---
 
-## DevTools
-
-[![Devtools]({{site.baseurl}}images/front-end-performance/devtools.png)](https://developer.chrome.com/devtools/docs/timeline)  
-
-<https://developer.chrome.com/devtools/docs/timeline>
+<p class="img_max">
+    <a href="https://developer.chrome.com/devtools/docs/timeline">
+       <img src="{{site.baseurl}}images/front-end-performance/devtools.png" alt="Chrome DevTools">
+    </a>
+</p>

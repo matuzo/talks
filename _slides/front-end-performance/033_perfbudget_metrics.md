@@ -1,12 +1,12 @@
 ---
-title: Performance Budget metrics
+title: Performance Budget
+subtitle: Metrics
 id: perfbudget_metrics
+classes: overlay centered_block
 image: palms.jpg
 ---
 
-## Performance Budget metrics
-
-1. ### Milestone timings  
+1. ### Milestone timings   
 eg. Load time, domContentLoaded, Time to render
 
 2. ### SpeedIndex

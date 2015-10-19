@@ -1,0 +1,12 @@
+<pre><code>var fontA = new FontFaceObserver( "Cabin" );
+
+Promise
+    .all([fontA.check()])
+    .then(function(){
+        document.documentElement.className += "fonts-loaded";
+    });
+
+    .fonts-loaded body {
+        font-family: 'Cabin', sans-serif;
+    }
+</code></pre>

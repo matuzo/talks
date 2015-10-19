@@ -1,7 +1,6 @@
 ---
 title: Conversion rates
 id: conversion
-image: palms.jpg
+classes: vertically_centered
+image: ducktales.jpg
 ---
-
-# Conversion Rates 

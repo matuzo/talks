@@ -1,11 +1,15 @@
 ---
 title: Conversion rates
+subtitle: Mozilla
 id: conversion_mozilla
+classes: overlay centered_content
 image: firefox.jpg
 ---
 
-# Mozilla
-
-## 2.2s faster => 60 Million more Downloas/year  
-
-<small class="source"><http://loadstorm.com/2014/04/infographic-web-performance-impacts-conversion-rates/></small>
+<div class="big_text">
+2.2s faster 
+<br />
+&#8594; 
+<br />
+<span class="highlighted_text">60 Million more Downloas/year</span>
+</div>

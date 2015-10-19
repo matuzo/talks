@@ -1,10 +1,7 @@
 ---
-title: Titel
+title: Front-End Performance
+subtitle: Our Websites Keep Getting <br />Fatter and Fatter
 id: title
-permalink: /front-end-performance/titel/
+classes: vertically_centered
 image: palms.jpg
 ---
-
-# Front-End Performance
-
-## Our Websites Keep Getting <br />Fatter and Fatter
