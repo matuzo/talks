@@ -8,14 +8,15 @@
 * [Amazon: 100ms faster => 1% more revenue](http://radar.oreilly.com/2008/08/radar-theme-web-ops.html)
 * [Yahoo: 400ms faster  => 9% more traffic](http://www.slideshare.net/stoyan/dont-make-me-wait-or-building-highperformance-web-applications#btnNext)
 * [Shopzilla: 5s faster = 25% more page views, 7 to 12% more revenue](http://www.scribd.com/doc/16877317/Shopzilla-s-Site-Redo-You-Get-What-You-Measure)
+* [Average Page Weight Increases 15% in 2014](http://www.sitepoint.com/average-page-weight-increases-15-2014/)
 
 ### Performance Budgets
 
 * [Setting a Performance Budget by Tim Kadlec](http://timkadlec.com/2013/01/setting-a-performance-budget/)
-* [Speedcurve](https://speedcurve.com/)
 * [Strategies for Staying on Top of Web Performance by Chris Coyier](https://css-tricks.com/strategies-for-staying-on-top-of-web-performance/)
 * [Performance As Design by Brad Frost](http://bradfrost.com/blog/post/performance-as-design/)
 * [Performance Budget Metrics](http://timkadlec.com/2014/11/performance-budget-metrics/)
+* [Speedcurve](https://speedcurve.com/)
 
 ### Measuring Performance
 
@@ -38,19 +39,21 @@
 * [espn.com](https://docs.google.com/document/d/1yJoMEdFME04maB_hlGhARTeys-DdeHRqU7zn-z4CFcA/edit?pli=1#heading=h.v23t53p6nkzl)
 * [squarespace](https://docs.google.com/document/d/15VSNoBP3OK64l5Jc_w63sgW88RUn3ve2qV7Jrrfc5A8/edit?pli=1#heading=h.v23t53p6nkzl)
 * [CNet, Wikipedia, Time](https://docs.google.com/document/d/1K-mKOqiUiSjgZTEscBLjtjd6E67oiK8H2ztOiq5tigk/edit?pli=1#)
-* [Introducing RAIL: A User-Centric Model For Performance](http://www.smashingmagazine.com/2015/10/rail-user-centric-model-performance/)
 * [Video: Totally Tooling Tips: Performance Auditing](https://www.youtube.com/watch?v=yeNUytByylk)
 
 ### Performance Goals
 
 * [Fast Enough by Tim Kadlec](http://timkadlec.com/2014/01/fast-enough/)
 * [Video: Paul Irish, "Delivering the goods" - Fluent 2014 Keynote ](https://www.youtube.com/watch?v=R8W_6xWphtw)
+* [Fluent 2014: Ilya Grigorik, "Speed, Performance, and Human Perception](https://www.youtube.com/watch?v=7ubJzEi3HuA)
+* [Introducing RAIL: A User-Centric Model For Performance](http://www.smashingmagazine.com/2015/10/rail-user-centric-model-performance/)
 
 ### General optimization
 
 * [Video: Supercharging page load (100 Days of Google Dev)](https://www.youtube.com/watch?v=d5_6yHixpsQ)
 * [Video: Supercharged: The Guardian](https://www.youtube.com/watch?v=obtCN3Goaw4)
 * [Video: CSSconf EU 2014 | Addy Osmani: CSS Performance Tooling](https://www.youtube.com/watch?v=FEs2jgZBaQA)
+* [PageSpeed Insights Rules](https://developers.google.com/speed/docs/insights/rules)
 
 ### Image optimization
 
@@ -91,8 +94,18 @@
 * [critical](https://github.com/addyosmani/critical)
 * [CriticalCSS](https://github.com/filamentgroup/criticalcss)
 
+### Optimize Javascript
+
+* [gulp-concat](https://www.npmjs.com/package/gulp-concat)
+* [grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat)
+* [gulp-usemin](https://www.npmjs.com/package/gulp-usemin)
+* [UglifyJS 2](https://github.com/mishoo/UglifyJS2)
+* [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
+* [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
+
 ### Font loading
 
+* [http://www.fontsquirrel.com/](Font Squirrel)
 * [Webfont Generator](http://www.fontsquirrel.com/tools/webfont-generator)
 * [Homebrew web font tools](https://github.com/bramstein/homebrew-webfonttools)
 * [How we use web fonts responsibly, or, avoiding a @font-face-palm by Zach Leatherman](https://www.filamentgroup.com/lab/font-loading.html)
@@ -114,9 +127,17 @@
 
 ### Sprites
 
-
+* [spritepad](http://spritepad.wearekiss.com/)
+* [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith#spritesmithparams)
+* [spritesmith-cli](https://github.com/bevacqua/spritesmith-cli)
+* [grunt-spritesmith](https://github.com/Ensighten/grunt-spritesmith)
 
 ### CDNs
+
+* [Cloudfront](https://aws.amazon.com/cloudfront/)
+* [cdnjs](https://cdnjs.com/)
+* [Hosted Libraries](https://developers.google.com/speed/libraries/)
+* [jsdelivr](https://www.jsdelivr.com/)
 
 ### Caching & gzipping
 
@@ -132,3 +153,10 @@
 ### HTTP/2
 
 * [Video: Yesterday's perf best-practices are today's HTTP/2 anti-patterns](https://www.youtube.com/watch?v=yURLTwZ3ehk)
+
+
+### Misc
+
+* [Moto Oakley](http://moto.oakley.com/)
+* [What Does My Site Cost?](http://whatdoesmysitecost.com/)
+
