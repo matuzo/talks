@@ -138,6 +138,8 @@
 * [cdnjs](https://cdnjs.com/)
 * [Hosted Libraries](https://developers.google.com/speed/libraries/)
 * [jsdelivr](https://www.jsdelivr.com/)
+* [MaxCDN](https://www.maxcdn.com/)
+* [CloudFlare](https://www.cloudflare.com/)
 
 ### Caching & gzipping
 
