@@ -7,11 +7,11 @@ image: palms.jpg
 ---
 
 <div class="big_text">
-2027,063 KB (~2MB)
+2020,915 KB (~2 MB)
 
 <br />
 &#8594; 
 <br />
 
-<strong>1,168,480 KB (1.2MB)</strong>
+<strong>1131,866 KB (~1.2MB)</strong>
 </div>

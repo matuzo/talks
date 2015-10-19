@@ -6,9 +6,9 @@ classes: overlay centered_content
 image: palms.jpg
 ---
 
-15KB Custom CSS  
-26KB Bootstrap theme  
-147KB Bootstrap  
-3KB Validation plugin  
+15 KB Custom CSS  
+26 KB Bootstrap theme  
+147 KB Bootstrap  
+3 KB Validation plugin  
 
-Total: **191 KB CSS**
+Total: **~192 KB CSS**

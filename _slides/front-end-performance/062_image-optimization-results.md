@@ -1,11 +1,10 @@
-
 ---
-title: Image optimization
+title: Wrap-up
+subtitle: Image optimization
 id: image-optimization-results
+classes: overlay
 image: palms.jpg
 ---
-
-# Image optimization
 
 * Compress images
 * Adjust images sizes

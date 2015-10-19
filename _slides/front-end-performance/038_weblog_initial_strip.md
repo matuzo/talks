@@ -7,7 +7,7 @@ image: palms.jpg
 ---
 <div class="img_max">
 
-    <a href="{{site.baseurl}}images/front-end-performance/weblog_filmstrip.png">
-        <img src="{{site.baseurl}}images/front-end-performance/weblog_filmstrip.png" alt="Weblog Initial Situation">
+    <a href="{{site.baseurl}}images/front-end-performance/weblog_filmstrip_desktop.png">
+        <img src="{{site.baseurl}}images/front-end-performance/weblog_filmstrip_desktop.png" alt="Weblog Initial Situation">
     </a>
 </div>

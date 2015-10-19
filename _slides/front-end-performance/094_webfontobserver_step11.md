@@ -9,11 +9,11 @@ image: palms.jpg
 Desktop:
 
 <div class="big_text">
-2248 &#8594; <strong>1290</strong><br />  
+1964 &#8594; <strong>1314</strong><br />  
 </div>
 
 Mobile:
 
 <div class="big_text">
-7806 &#8594; <strong>5673</strong>
+8407 &#8594; <strong>5922</strong>
 </div>

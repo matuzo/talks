@@ -1,7 +1,7 @@
 ---
 title: PageSpeed Insights
 subtitle: Step12 Score
-id: step11psiscore
+id: step12psiscore
 classes: overlay centered_content
 image: palms.jpg
 ---

@@ -10,6 +10,6 @@ image: palms.jpg
 
 <table class="tableizer-table">
 <tr class="tableizer-firstrow"><th></th><th>Load Time</th><th>Start Render</th><th>Request</th><th>Speed Index</th></tr>
- <tr><td>First View</td><td>8.192s</td><td>1.886s</td><td>39</td><td>2448</td></tr>
- <tr><td>Repeat View</td><td>8.192s</td><td>1.886s</td><td>39</td><td>2448</td></tr>
+ <tr><td>First View</td><td>25.833s</td><td>3.984s</td><td>40</td><td>13936</td></tr>
+ <tr><td>Repeat View</td><td>1.740s</td><td>2.208s</td><td>0</td><td>3661</td></tr>
 </table>

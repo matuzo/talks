@@ -8,10 +8,10 @@ image: palms.jpg
 Images size Mobile:  
 
 <div class="big_text"> 
-1,168,480 KB (~1.2MB)
+1131,866 KB (~1.2MB)
 <br />
 &#8594; 
 <br />
 
-<strong>~300 KB</strong>
+<strong>~301 KB</strong>
 </div>

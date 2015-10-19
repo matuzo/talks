@@ -6,6 +6,6 @@ classes: overlay centered_content
 image: palms.jpg
 ---
 <div class="big_text">
-Images size Mobile: <strong>~300 KB</strong><br />
-Images size Desktop: <strong>1,168,480 KB (~1.2MB)</strong>
+Images size Mobile: <strong>~301 KB</strong><br />
+Images size Desktop: <strong>1131,866 KB (~1.2MB)</strong>
 </div>

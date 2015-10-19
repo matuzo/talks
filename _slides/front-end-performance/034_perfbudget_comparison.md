@@ -6,4 +6,4 @@ classes: overlay
 image: palms.jpg
 ---
 
-<video width="540" controls src="{{site.baseurl}}images/front-end-performance/comparison.mp4" />
+<video width="500" controls src="{{site.baseurl}}files/front-end-performance/comparison.mp4" />

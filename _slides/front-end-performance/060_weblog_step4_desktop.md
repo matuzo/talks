@@ -13,5 +13,5 @@ Images size Desktop:
 &#8594; 
 <br />
 
-<strong>~528 KB</strong>
+<strong>~522 KB</strong>
 </div>
