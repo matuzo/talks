@@ -149,16 +149,21 @@
 
 ### ServiceWorker
 
+* [Jake Archibald: The ServiceWorker is coming, look busy | JSConf EU 2014](https://www.youtube.com/watch?v=SmZ9XcTpMS4)
+* [ServiceWorker Spec.](http://www.w3.org/TR/service-workers/)
 * [Is ServiceWorker ready?](https://jakearchibald.github.io/isserviceworkerready/)
 * [ServiceWorker on caniuse](http://caniuse.com/#feat=serviceworkers)
 
 ### HTTP/2
 
 * [Video: Yesterday's perf best-practices are today's HTTP/2 anti-patterns](https://www.youtube.com/watch?v=yURLTwZ3ehk)
+* [HTTP/2 FAQ](https://http2.github.io/faq/)
 
 
 ### Misc
 
 * [Moto Oakley](http://moto.oakley.com/)
 * [What Does My Site Cost?](http://whatdoesmysitecost.com/)
+* [youmightnotneedjquery.com](http://youmightnotneedjquery.com)
+* [youmightnotneedjqueryplugins.com](http://youmightnotneedjqueryplugins.com/)
 
